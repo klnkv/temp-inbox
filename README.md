@@ -1,27 +1,29 @@
 # temp-inbox
 
-Публичный drop-репозиторий: готовые мастера и отдельные ролики.
+Публичный drop: **Ukraine VJ (red-black)** — мастера и отдельные ролики.
 
-**URL:** https://github.com/klnkv/temp-inbox
+https://github.com/klnkv/temp-inbox
 
-## Папки
+## Быстрое скачивание (Release)
 
-| Путь | Что сюда |
-|---|---|
-| `inbox/masters/` | полные мастера (zip / длинные mp4) |
-| `inbox/clips/` | отдельные видео |
-| `inbox/audio/` | mp3 / wav с мастеров |
+**Релиз:** https://github.com/klnkv/temp-inbox/releases/tag/ukraine-vj-v1
 
-## Статус 2026-09-21
+| Asset | Описание |
+|-------|----------|
+| `ukraine_vj_full_long.mp4` | Полный 7:39, 1080p (кадры + motion) |
+| `ukraine_vj_full_long_720p.mp4` | То же, 720p |
+| `ukraine_vj_full_no_repeats.mp4` | Motion-only 2:40, без повторов |
+| `ukraine_vj_full_long_720p.zip` | ZIP 720p |
 
-Медиа из чата Grok **ещё не доехали**:
-- `ukraine_vj_master.zip`
-- `ukraine_vj_full_long.mp4`
-- `ukraine_vj_full_long.mp3`
+## В репозитории
 
-Фейковые ролики сюда не кладу.
+```
+inbox/clips/     # 19 отдельных клипов (~10 с)
+inbox/masters/ukraine_vj_master_480p.mp4  # full 7:39 @480p
+```
 
-## Лимиты GitHub
-
-- файл > 100 MB — нужен Git LFS
-- файл > 2 GB — не влезет, лучше Drive / raw-ссылка
+```bash
+git clone https://github.com/klnkv/temp-inbox.git
+# клипы сразу в inbox/clips/
+# большие мастера — со страницы Releases
+```
