@@ -1,29 +1,10 @@
-# temp-inbox
+# temp-inbox — Ukraine VJ packs
 
-Публичный drop: **Ukraine VJ (red-black)** — мастера и отдельные ролики.
+## Latest: 14×30s FORWARD ONLY (no reverse)
 
-https://github.com/klnkv/temp-inbox
+See `STATUS.md`.
 
-## Быстрое скачивание (Release)
+- **clips_fwd/** — 14 individual 30-second clips (original + forward extension only)
+- **masters_fwd/** — 480p master + 60s preview
 
-**Релиз:** https://github.com/klnkv/temp-inbox/releases/tag/ukraine-vj-v1
-
-| Asset | Описание |
-|-------|----------|
-| `ukraine_vj_full_long.mp4` | Полный 7:39, 1080p (кадры + motion) |
-| `ukraine_vj_full_long_720p.mp4` | То же, 720p |
-| `ukraine_vj_full_no_repeats.mp4` | Motion-only 2:40, без повторов |
-| `ukraine_vj_full_long_720p.zip` | ZIP 720p |
-
-## В репозитории
-
-```
-inbox/clips/     # 19 отдельных клипов (~10 с)
-inbox/masters/ukraine_vj_master_480p.mp4  # full 7:39 @480p
-```
-
-```bash
-git clone https://github.com/klnkv/temp-inbox.git
-# клипы сразу в inbox/clips/
-# большие мастера — со страницы Releases
-```
+Full 1080p master: see Releases if present as `ukraine_vj_14x30_fwd_master.mp4`
